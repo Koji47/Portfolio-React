@@ -1,5 +1,7 @@
 {
   "name": "portfolio-react",
+  "homepage": "https://Koji47.github.io/portfolio-react",
+  "author": "Chu Lam",
   "private": true,
   "version": "0.0.0",
   "type": "module",
