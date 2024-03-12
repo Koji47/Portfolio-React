@@ -1,6 +1,6 @@
 import "./Footer.scss";
-import Github from "../../assets/Github.png";
-import LinkedIn from "../../assets/LinkedIn.png";
+import Github from "../../../assets/Github.png";
+import LinkedIn from "../../../assets/LinkedIn.png";
 
 const Footer = () => {
   return (
