@@ -1,9 +1,9 @@
 import "./Project.scss";
 import ProjectCard from "../../containers/ProjectCard/ProjectCard";
-import BrickBreaker from "../../assets/BrickBreaker.png";
-import ClientProject from "../../assets/ClientProject.png";
-import Calculator from "../../assets/Calculator.png";
-import Strikers from "../../assets/Strikers.png";
+import BrickBreaker from "../../../assets/BrickBreaker.png";
+import ClientProject from "../../../assets/ClientProject.png";
+import Calculator from "../../../assets/Calculator.png";
+import Strikers from "../../../assets/Strikers.png";
 
 const Project = () => {
   return (
