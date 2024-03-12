@@ -1,0 +1,59 @@
+.project-container {
+  position: relative;
+  padding: 30px;
+  margin-top: 4rem;
+  display: flex;
+  text-align: center;
+  width: 90vw;
+  height: 35vh;
+  border-radius: 20px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 8vw;
+    width: 84vw;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.026);
+    border-radius: 20px;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+  }
+
+  &__image {
+    max-height: 100%;
+    width: fit-content;
+    margin-left: 10vw;
+    border-radius: 20px;
+    z-index: 1;
+  }
+
+  &__text {
+    margin-left: 4rem;
+    margin-right: 2rem;
+    z-index: 1;
+  }
+
+  &__name {
+    font-size: 2rem;
+  }
+
+  &__description {
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  &__links {
+    margin-top: 10px;
+
+    &__deployed {
+      display: inline-block;
+      padding: 8px 12px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

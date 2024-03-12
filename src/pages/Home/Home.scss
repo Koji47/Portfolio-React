@@ -1,0 +1,29 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  margin: auto;
+  padding: 20px;
+
+  &__name {
+    font-size: 48px;
+  }
+
+  &__description {
+    font-size: 16px;
+  }
+
+  &__image {
+    height: 400px;
+    margin-left: 17vw;
+  }
+}
+
+.section {
+  display: flex;
+  width: auto;
+}
